@@ -23,7 +23,8 @@ Hello World
 `Inline code` with backticks
 
 ```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
+# link to screenshot below
 ```
+[Lab Report 1](lab-report-1-week-2.html)
+
+[Lab Report 1](https://soph-song.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
