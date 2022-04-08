@@ -8,6 +8,8 @@ Hello World
 
 [Link](https://soph-song.github.io/cse15l-lab-reports/)
 
+![Image](http://url/a.png)
+
 > Blockquote
 > 
 > * List
