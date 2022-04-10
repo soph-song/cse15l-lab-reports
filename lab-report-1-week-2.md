@@ -99,9 +99,6 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
-
-> Note: If you're on windows, follow an extra step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)*
-
 2. Now copy the key to your .ssh directory on server:
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
