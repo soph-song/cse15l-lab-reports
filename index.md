@@ -23,7 +23,7 @@ Hello World
 `Inline code` with backticks
 
 ```
-# link to screenshot below
+# link to lab report 1 below
 ```
 [Lab Report 1](lab-report-1-week-2.html)
 
