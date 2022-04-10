@@ -70,7 +70,6 @@ Example:
 All this logging in and inputting password each time can be annoying. We could use an SSH key to skip this repition.
 
 1. On your local computer. Use the following command: `ssh-keygen`. Something like this should show up (*Make sure that you do not add a passphrase when asked.*):
-
 ```
 $ ssh-keygen
 Generating public/private rsa key pair.
@@ -104,7 +103,6 @@ The key's randomart image is:
 > Note: If you're on windows, follow an extra step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)*
 
 2. Now copy the key to your .ssh directory on server:
-
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
@@ -115,7 +113,6 @@ $ <logout>
 $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
-
 3. try ssh or scp again. You should be able to access server without typing your password, like so:
 ![Image](image17.png)
 
