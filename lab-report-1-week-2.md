@@ -10,7 +10,7 @@
 ![Image](Screensho.png)
 ---
 ## Remotely Connecting
-**Let's to connect to a remote computer on our local computer!**
+**Let's connect to a remote computer on our local computer!**
 
 > Note: If you're on Windows, make sure to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) first!*
 
@@ -20,19 +20,18 @@
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 ```
 3. If connecting to the server, first time. You might see the following message. Say "yes" and type your password:
-
 ```
 ⤇ ssh cs15lsp22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
-After that, it shoud look something like this: ![Image](RemoteConnect.png)
-
+4. After that, it shoud look something like this: ![Image](RemoteConnect.png)
 ---
 ## Trying out Commands!
 1. Run commands like `cd, ls, pwd, mkdir, and cp` on the local and remote computer. And see what you can access!
-Here's an example of me using the "cat" and "cp" command on the public folder of the server:![Image](Commands1.png)![Image](Commands2.png)
+
+2. Here's an example of me using the "cat" and "cp" command on the public folder of the server:![Image](Commands1.png)![Image](Commands2.png) 
 Notice how permission was denied for me when I tried accessing the path with "/public"? If you're accessing your individual directory instead of public, it should work out for you.
 
 2. More commands to try out:
@@ -45,7 +44,6 @@ Notice how permission was denied for me when I tried accessing the path with "/p
 * ls <directory> where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username
 * cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lsp22/public/hello.txt
-
 ---
 ## Moving Files with scp
 1. Create a file on your local computer. Then, in the terminal, type (You will have to input password again for this step): 
@@ -65,7 +63,6 @@ Example:
 All this logging in and inputting password each time can be annoying. We could use an SSH key to skip this repition.
 
 1. On your local computer. Use the following command: `ssh-keygen`. Something like this should show up (*Make sure that you do not add a passphrase when asked.*):
-
 ```
 $ ssh-keygen
 Generating public/private rsa key pair.
@@ -98,7 +95,6 @@ The key's randomart image is:
 >Note: If you're on windows, follow an extra step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)*
 
 2. Now copy the key to your .ssh directory on server:
-
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
@@ -109,18 +105,15 @@ $ <logout>
 $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
-
 3. Now, try ssh or scp again. You should be able to access server without typing your password, like so:
 ![Image](image17.png)
-
 ---
-
 ## Optimize Remote Running
 1. You can optimize remote running by using helpful tools like the quotation mark (which allows you to run commands on remote server when put at the end of ssh command) and semicolon (which allows multiple commands on one line)
 
 2. The upward arrow on your keyboard can allow you to access previous commands.
 
-Here's an example for copying a file to server and running it on the server:
+3. Here's an example for copying a file to server and running it on the server:
 ```
 (upward arrow) 
 
