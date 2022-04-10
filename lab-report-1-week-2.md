@@ -101,6 +101,7 @@ The key's randomart image is:
 *Note: If you're on windows, follow an extra step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)*
 
 2. Now copy the key to your .ssh directory on server:
+
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
@@ -114,7 +115,9 @@ $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/autho
 
 3. Now, try ssh or scp again. You should be able to access server without typing your password, like so:
 ![Image](image17.png)
+
 ---
+
 ## Optimize Remote Running
 1. You can optimize remote running by using helpful tools like the quotation mark (which allows you to run commands on remote server when put at the end of ssh command) and semicolon (which allows multiple commands on one line)
 
