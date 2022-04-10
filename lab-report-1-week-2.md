@@ -12,7 +12,7 @@
 ## Remotely Connecting
 **Let's to connect to a remote computer on our local computer!**
 
-*Note: If you're on Windows, make sure to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) first!*
+> Note: If you're on Windows, make sure to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) first!*
 
 1. Know your course-specific account information. You'll need the username and password.
 2. Open up a terminal in VS code. Type in (fill out the zz according to your username): 
@@ -32,10 +32,7 @@ After that, it shoud look something like this: ![Image](RemoteConnect.png)
 ---
 ## Trying out Commands!
 1. Run commands like `cd, ls, pwd, mkdir, and cp` on the local and remote computer. And see what you can access!
-
-Here's an example of me using the "cat" and "cp" command on the public folder of the server:
-![Image](Commands1.png)
-![Image](Commands2.png)
+Here's an example of me using the "cat" and "cp" command on the public folder of the server:![Image](Commands1.png)![Image](Commands2.png)
 Notice how permission was denied for me when I tried accessing the path with "/public"? If you're accessing your individual directory instead of public, it should work out for you.
 
 2. More commands to try out:
@@ -98,7 +95,7 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
-*Note: If you're on windows, follow an extra step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)*
+>Note: If you're on windows, follow an extra step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)*
 
 2. Now copy the key to your .ssh directory on server:
 
