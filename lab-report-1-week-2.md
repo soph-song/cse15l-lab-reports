@@ -8,7 +8,9 @@
 
 2. When you first open VS code on your computer, it should look something like this:
 ![Image](Screensho.png)
+
 ---
+
 ## Remotely Connecting
 **Let's connect to a remote computer on our local computer!**
 
@@ -27,7 +29,9 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 4. After that, it shoud look something like this: ![Image](RemoteConnect.png)
+
 ---
+
 ## Trying out Commands!
 1. Run commands like `cd, ls, pwd, mkdir, and cp` on the local and remote computer. And see what you can access!
 
@@ -44,7 +48,9 @@ Notice how permission was denied for me when I tried accessing the path with "/p
 * ls <directory> where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username
 * cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lsp22/public/hello.txt
+
 ---
+
 ## Moving Files with scp
 1. Create a file on your local computer. Then, in the terminal, type (You will have to input password again for this step): 
 `scp <filename> cs15lsp22zz@ieng6.ucsd.edu:~/`
@@ -59,6 +65,7 @@ Example:
 ![Image](scp2.png)
 
 ---
+
 ## Setting an SSH key
 All this logging in and inputting password each time can be annoying. We could use an SSH key to skip this repition.
 
@@ -107,7 +114,9 @@ $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/autho
 ```
 3. Now, try ssh or scp again. You should be able to access server without typing your password, like so:
 ![Image](image17.png)
+
 ---
+
 ## Optimize Remote Running
 1. You can optimize remote running by using helpful tools like the quotation mark (which allows you to run commands on remote server when put at the end of ssh command) and semicolon (which allows multiple commands on one line)
 
