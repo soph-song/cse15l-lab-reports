@@ -111,14 +111,10 @@ $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/autho
 
 ## Optimize Remote Running
 1. You can optimize remote running by using helpful tools like the quotation mark (which allows you to run commands on remote server when put at the end of ssh command) and semicolon (which allows multiple commands on one line)
-
 2. The upward arrow on your keyboard can allow you to access previous commands.
-
 3. Here's an example for copying a file to server and running it on the server:
 ```
 (upward arrow) 
-
 scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/ ; ssh cs15lsp22zz@ieng6.ucsd.edu "javac WhereAmI.java ; java WhereAmI"
-
 (enter)
 ```
