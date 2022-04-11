@@ -93,7 +93,9 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
+
 2. Now copy the key to your .ssh directory on server:
+
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
