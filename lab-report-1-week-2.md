@@ -67,7 +67,7 @@ Example:
 ---
 
 ## Setting an SSH key
-All this logging in and inputting password each time can be annoying. We could use an SSH key to skip this repition.
+**All this logging in and inputting password each time can be annoying. We could use an SSH key to skip this repition.**
 
 1. On your local computer. Use the following command: `ssh-keygen`. Something like this should show up (*Make sure that you do not add a passphrase when asked.*):
 ```
