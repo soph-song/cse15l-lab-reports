@@ -73,19 +73,13 @@ Example:
 ```
 $ ssh-keygen
 Generating public/private rsa key pair.
-
 Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
-
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again: 
-
 Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
-
 Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
-
 The key fingerprint is:
 SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
-
 The key's randomart image is:
 +---[RSA 3072]----+
 |                 |
