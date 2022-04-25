@@ -13,6 +13,7 @@ Explanation:
 The version of MarkdownParse.java failed to consider cases where there is an extra character between the "[]" and "()", in which the string inside the open parenthesis will be considered as a link URL and be added to the list. 
 
 >For example, the line "[]](test)" in the test file will be considered even though it is not a link.
+
 ---
 ## SECOND BUG: Image files included
 Code Change:
@@ -27,6 +28,7 @@ Explanation:
 This version of MarkdownParse failed to exclude images from the list. Since the image markdowns are similar to that of link URL, the code will include images.
 
 >For example, in the test file, "https://something.com" is a image. However, the output included it even though it shouldn't.
+
 ---
 ## THIRD BUG: Infinite loop caused by extra text after the link
 Code Change:
