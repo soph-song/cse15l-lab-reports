@@ -23,8 +23,8 @@ Hello World
 `Inline code` with backticks
 
 ```
-# link to lab report 1 below
+# link to lab reports below
 ```
 [Lab Report 1](lab-report-1-week-2.html)
 
-[Lab Report 1](https://soph-song.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab Report 2](lab-report-2-week-4.html)
