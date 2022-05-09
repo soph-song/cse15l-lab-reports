@@ -43,6 +43,6 @@
 2. Now, I login to my account, compile and run the test on the server
 ![Image](JunitMDP.png)
 
-3. Doing step 1 and step 2 in one shot (It's a long list of files that were uploaded, so I'm going to show part of it, the the part where Junit successfully runs)
+3. Doing step 1 and step 2 in one shot (It's a long list of files that were uploaded, so I'm going to show part of it, then the part where Junit successfully runs)
 ![Image](lab3P3.png)
 ![Image](lab3P3b.png)
