@@ -22,7 +22,7 @@
 2. The private key is stored on the user account as well (along with public key).
 ![Image](ieng6keys.png)
 
-3. Now, I tried running git commands on server. First, I cloned one of my repo to my accound, and ran the following command
+3. Now, I tried running git commands on server. First, I cloned one of my repo to my account, and ran the following command
 ![Image](gitcomm1.png)
 
 4. As shown, a "new line" appeared at the end of the java file.
