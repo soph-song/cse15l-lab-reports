@@ -30,8 +30,8 @@
 5. Then, I used "git status" to check if it's modified and commit & push the changes. 
 ![Image](gitcomm2.png)
 
-6. Here's a link for the resultant modificatioon:
-[Click Here](https://github.com/soph-song/Demo1/commit/4167552013404af65f01bd763cbe24abbb9e3dc4)
+6. Here's a link for the resultant modification:
+[Click Here](https://github.com/soph-song/Demo1/commit/d8194a4312e791296a31804c88704a0a39bb366b)
 
 ---
 
