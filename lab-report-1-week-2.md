@@ -7,7 +7,7 @@
 > Remember to download the correct version that matches your Operating System (Mac/Windows etc.)
 
 2. When you first open VS code on your computer, it should look something like this:
-![Image](Screensho.png)
+![Image](./images/Screensho.png)
 
 ---
 
@@ -28,7 +28,7 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
-4. After that, it shoud look something like this: ![Image](RemoteConnect.png)
+4. After that, it shoud look something like this: ![Image](./images/RemoteConnect.png)
 
 ---
 
@@ -59,10 +59,10 @@ Notice how permission was denied for me when I tried accessing the path with "/p
 Example:
 
 (**On local Computer**)
-![Image](scp1.png)
+![Image](./images/scp1.png)
 
 (**On Server**) 
-![Image](scp2.png)
+![Image](./images/scp2.png)
 
 ---
 
@@ -107,7 +107,7 @@ $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/autho
 # You use your username and the path you saw in the command above
 ```
 3. try ssh or scp again. You should be able to access server without typing your password, like so:
-![Image](image17.png)
+![Image](./images/image17.png)
 
 ---
 
