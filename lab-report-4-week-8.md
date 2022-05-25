@@ -26,6 +26,9 @@ Expected Output: [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/sche
 
 ---
 ## Test Code Snippets
+Tests:
+![image](.\images\testSnippets.png)
+
 First screenshot is my implementation, second is reviewed implementation.
 1. Output of Code Snippet 1 
 
