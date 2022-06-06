@@ -15,7 +15,7 @@ My implementation was correct, and the provided was incorrect.
 
 
 ## [489.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/489.md)
-1. Expected output: [url]
+1. Expected output: []
 ![image](/images/lab5-1.png)
 
 
